@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height: 260px;
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.5) 100%),url(facilities-images/Food-banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+nav p{
+    color: #DB9200;
+}
+
+nav ul{
+    list-style: none;
+    display: none;
+}
+.nav-list{
+    margin-bottom: 10px;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn{
+    height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #DB9200;
+    padding: 10px 10px;
+}
+
+.header-writeup{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+.header-writeup h1{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.header-writeup p{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.facilities{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+   
+}
+
+.image{
+    width: 260px;
+    margin: 0 auto;
+
+}
+.facilities .write-up{
+    width: 260px;
+    margin-top: 10px;
+    margin: 0 auto;
+
+}
+.write-up h4{
+    color: #DB9200;
+}
+.Read-more{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+footer{
+    background-color: #0C242E;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.footer-1{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 70px;
+    padding-top: 50px;
+}
+.icons {
+    color: #DB9200;
+    width: 50px;
+    height: auto;
+
+}
+
+.icons-contact{
+    color: #ffffff;
+}
+.icons-contact p{
+    padding-bottom: 15px;
+
+}
+
+.footer-2, 
+.footer-3{
+    width: auto;
+    height: auto;
+    margin-left: 70px;
+    padding-top: 50px;
+}
+.logo .p-1{
+    font-weight: bold;
+    font-family: 'Cardo', serif;
+    font-size: 28px;
+}
+
+.logo .p-2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+
+.icons-2,
+.p-2{
+    color: #ffffff;
+}
+.icons-2 i{
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.p-1,
+.footer-3 h4,
+.copyright span{
+    color: #DB9200;
+}
+.footer-3 ul{
+    list-style: none;
+}
+.footer-3 li{
+    padding-top: 20px;
+}
+.footer-3 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .copyright{
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    height: 10vh;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px){
+    header{
+        width: 100%;
+        height: 460px;
+    }
+    
+    nav {
+        width: 100%;
+        height: 80px;
+       display: flex;
+       justify-content: space-between;
+        align-items: center;
+    }
+
+    nav p{
+        margin-left: 50px;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+
+    }
+    .nav-list{
+        padding-right: 50px;  
+    }
+
+    .btn{
+        margin-right: 50px;
+    }
+
+    .header-writeup{
+        width: 250px;
+        height: 164px;
+        text-align: left;
+        margin: 100px 50px;
+    
+    }
+    .header-writeup h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .header-writeup p{
+        font-size: 18px;
+        line-height: 100%;
+        font-weight: normal;
+    } 
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .facilities{
+        width: 260px;
+        height: auto;
+        margin-top: 50px;
+    }
+    
+    .image{
+        width: 260px;
+        margin: 0 auto;
+    
+    }
+    .facilities .write-up{
+        width: 260px;
+        margin-top: 10px;
+        margin: 0 auto;
+    
+    }
+    .footer-1,
+    .footer-2, 
+    .footer-3{
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+}
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+    
+}
+
+@media (min-width: 1000px){
+    nav p{
+        margin-left: 80px;
+    }
+
+    .btn{
+        margin-right: 80px;
+    }
+    .header-writeup{
+        width: 300px;
+        margin: 100px 80px;
+        
+    
+    }
+    .header-writeup h1{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .header-writeup p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    
+    .footer-1,
+    .footer-2,
+    .footer-3{
+        margin-right: 70px;
+        
+    } 
+}
+
+@media (min-width: 1280px){
+    .facilities{
+        margin-right: 70px;
+        margin-left: 90px;
+
+    }
+
+    .footer-1,
+    .footer-2,
+    .footer-3{
+        margin-right: 170px;        
+    } 
+}
